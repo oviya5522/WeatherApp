@@ -568,23 +568,23 @@ return(
           <p className="text-sm sm:text-lg">Temperature: {weather.main.temp}°C</p>
         </div>
         <div className={`w-full sm:w-[200px] p-3 rounded-lg shadow-lg text-center ${darkMode ? "bg-white/10" : "bg-gray-600"}`}>
-          <img src="temperature.png" alt="Temperature" className="h-16 mx-auto" />
+          <img src="humidity.png" alt="Humidity" className="h-16 mx-auto" />
           <p className="text-sm sm:text-lg"> Humidity: {weather.main.humidity}%</p>
         </div>
         <div className={`w-full sm:w-[200px] p-3 rounded-lg shadow-lg text-center ${darkMode ? "bg-white/10" : "bg-gray-600"}`}>
-          <img src="temperature.png" alt="Temperature" className="h-16 mx-auto" />
+          <img src="cloudsun.png" alt="Condition" className="h-16 mx-auto" />
           <p className="text-sm sm:text-lg">Condition: {weather.weather[0].main}</p>
         </div>
         <div className={`w-full sm:w-[200px] p-3 rounded-lg shadow-lg text-center ${darkMode ? "bg-white/10" : "bg-gray-600"}`}>
-          <img src="temperature.png" alt="Temperature" className="h-16 mx-auto" />
+          <img src="pressure.png" alt="Pressure" className="h-16 mx-auto" />
           <p className="text-sm sm:text-lg">Pressure: {weather.main.pressure} hPa</p>
         </div> 
          <div className={`w-full sm:w-[200px] p-3 rounded-lg shadow-lg text-center ${darkMode ? "bg-white/10" : "bg-gray-600"}`}>
-          <img src="temperature.png" alt="Temperature" className="h-16 mx-auto" />
+          <img src="windspeed.png" alt="Wind Speed" className="h-16 mx-auto" />
           <p className="text-sm sm:text-lg">Wind Speed: {weather.wind.speed} km/h</p>
         </div>
          <div className={`w-full sm:w-[200px] p-3 rounded-lg shadow-lg text-center ${darkMode ? "bg-white/10" : "bg-gray-600"}`}>
-          <img src="temperature.png" alt="Temperature" className="h-16 mx-auto" />
+          <img src="visibility.png" alt="Visibility" className="h-16 mx-auto" />
           <p className="text-sm sm:text-lg">     Visibility: {weather.visibility}m</p>
         </div>
 
