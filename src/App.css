@@ -1,0 +1,149 @@
+@import "tailwindcss";
+@keyframes glow {
+    0% { text-shadow: 0 0 5px #b9babe, 0 0 10px #b4b1b1; }
+    50% { text-shadow: 0 0 10px #1124cc, 0 0 20px #2f00ff; }
+    100% { text-shadow: 0 0 5px #a8a4a4, 0 0 10px #b1acac; }
+  }
+  
+  .animate-glow {
+    animation: glow 1.5s infinite alternate;
+  }
+  /* Keyframe for fade-in effect */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Keyframe for slide-in effect */
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Apply fade-in animation */
+.animate-fade-in {
+  animation: fade-in 0.8s ease-in-out;
+}
+
+/* Apply slide-in animation */
+.animate-slide-in {
+  animation: slide-in 0.5s ease-in-out;
+}
+/* Keyframe for fade-in effect */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Keyframe for slide-in effect */
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Apply fade-in animation */
+.animate-fade-in {
+  animation: fade-in 0.8s ease-in-out;
+}
+
+/* Apply slide-in animation */
+.animate-slide-in {
+  animation: slide-in 0.5s ease-in-out;
+}
+.animate-bounce {
+  animation: bounce 1.5s infinite;
+}
+.animate-zoom-in {
+  animation: zoom-in 0.8s ease-in-out;
+}
+
+/* Recipe Suggestions Animation: Slide-in from the left */
+@keyframes slide-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in-left {
+  animation: slide-in-left 0.8s ease-in-out;
+}
+
+/* Clothing Recommendations Animation: Fade-in with scale */
+@keyframes fade-in-scale {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fade-in-scale {
+  animation: fade-in-scale 0.8s ease-in-out;
+}
+
+/* Outdoor Planner Animation: Slide-in from the bottom */
+@keyframes slide-in-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-in-bottom {
+  animation: slide-in-bottom 0.8s ease-in-out;
+}
+
+/* Weather Tips Animation: Bounce-in */
+@keyframes bounce-in {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-bounce-in {
+  animation: bounce-in 0.8s ease-in-out;
+}
