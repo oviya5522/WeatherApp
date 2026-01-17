@@ -28,6 +28,8 @@ To practice React, API integration, and create a real-time weather app for learn
 
 - Hosted on **Netlify**
 - Add your API key in Netlify’s **Environment Variables** under site settings.
+- 🔗 **Live URL:**  
+https://reactweathersphere.netlify.app/
 
 ## 🛠️ How to Run Locally
 
